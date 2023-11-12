@@ -1,0 +1,11 @@
+
+# Create a new enviroment
+virtualenv -p python3 .venv
+
+# Activate the enviroment (linux command)
+source .venv/bin/activate
+
+# install libreries
+pip install pygame
+pip install torch torchvision
+pip install matplotlib ipython
